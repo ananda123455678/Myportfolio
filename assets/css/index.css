@@ -9,18 +9,21 @@ body {
 }
 
 .h1{
-    font-size: 30px;
-    top: 15px;
-    color: rgb(5, 5, 32); 
+    font-size: 20px;
+    top: 6em;
+   
     right: 1.5em;  
     position: absolute;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
 }
 
-.h2{
-    margin-top: 4em;
-    left: 1.5em;
-    
+h2{
+    margin-top: 14.5em;
+    left: 4em;
+    position: absolute;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(5, 5, 32); 
+    font-size: 30px;
 }
 p {
     font-family: 'Times New Roman', Times, serif;
@@ -44,16 +47,22 @@ font-size: 20px;
 }
 
 .img img{
-    top: 0.5em;
+    top: 2em;
     font-size: 20px;
     position: absolute;
-    width: 100px;
+    width: 300px;
     height: auto;
-    left: 30em;
-    padding: 0.5rem 1rem;
-    margin: 1.2rem 1.5rem;
-    border-radius: 50%;
-
+    left: 3em;
+  
+    
     
 
+}
+.menu li a{
+    text-decoration: none;
+}
+
+.row g-3{
+    position: absolute;
+    
 }
